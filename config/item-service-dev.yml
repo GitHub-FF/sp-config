@@ -1,6 +1,11 @@
 spring:
   application:
+  cloud:
+    config:
+      override-none: true
+  
     name: item-service
+  
     
 server:
   port: 8001
